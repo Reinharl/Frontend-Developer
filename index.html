@@ -1,75 +1,17 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Intro CSS</title>
 </head>
 <body>
-<form>
-    <div>
-        <label for="name">
-            <input type="text" name="name" id="name" placeholder="nome">
-        </label>
-    </div>
-    <div>
-        <label for="email">
-            <input type="email" name="email" id="email" placeholder="email">
-        </label>
-    </div>
-    <div>
-        <label for="message">
-            <textarea id="message"></textarea>
-        </label>
-    </div>
-    <div>
-        <label for="interessi">Interessi:</label>
+<div class="red square"></div>
+<div class="green square"></div>
+<div class="blu square"></div>
 
-        <select name="interessi" id="interessi">
-            <option value="question">Question</option>
-            <option value="feedback">Feedback</option>
-            <option value="bug">Segnalazione di bug</option>
-        </select>
-    </div>
-    <div>
-        <label for="male">
-            <input type="radio" name="genre" id="male">M
-        </label>
-        <label for="female">
-            <input type="radio" name="genre" id="female">F
-        </label>
-        <label for="other">
-            <input type="radio" name="genre" id="other">A
-        </label>
-    </div>
-    <div>
-        <label for="sport">
-            <input type="checkbox" name="question" id="sport">Sport
-        </label>
-    </div>
-    <div>
-        <label for="music">
-            <input type="checkbox" name="question" id="music">Music
-        </label>
-    </div>
-    <div>
-        <label for="cinema">
-            <input type="checkbox" name="question" id="cinema">Cinema
-        </label>
-    </div>
-    <div>
-        <label for="file"></label><input type="file" name="file" id="file">
-    </div>
-    <div>
-        <label for="data">Inserisci data: </label>
-        <input type="date" name="data" id="data">
-    </div>
-    <div>
-        <button type="submit">Invio</button>
-        <button type="reset">Ripristino</button>
-    </div>
-</form>
 </body>
 </html>
