@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #474444;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F2A062;
+    padding: 16px;
+}
+
+main {
+    background-color: #8EABC0;
+    padding: 16px;
+    display: flow-root;
+}
+
+.square {
+    padding: 75px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 16px;
+    float: left;
+    background-color: #AB476F;
+    width: 200px;
+    height: 200px;
+}
+
+.square:hover {
+    background-color: #823267;
+}
+
+footer {
+    background-color: #B7CE3F;
+    padding: 16px;
+    clear: both;
+}
