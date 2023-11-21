@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: #ddd;
+    display: flex;
+    gap: 20px;
+}
+
+aside {
+    background-color: #666;
+    width: 30%;
+}
+
+main {
+    background-color: #333;
+    color: white;
+    width: 70%;
+}
+
+footer {
+    padding: 16px;
+    background-color: aquamarine;
+}

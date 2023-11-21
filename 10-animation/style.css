@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    border-top: 6px solid violet;
+    border-bottom: 6px solid violet;
+    border-left: 6px solid yellow;
+    border-right: 6px solid yellow;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    animation: my-animation 2s infinite;
+}
+
+@keyframes my-animation {
+    33% {
+        background-color: orange;
+    }
+
+    66% {
+        background-color: blue;
+    }
+}

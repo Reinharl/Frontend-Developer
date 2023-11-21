@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+* navbar
+*/
+
+nav {
+    background-color: #212121;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav .container {
+    height: 100px;
+    max-width: 1336px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    gap: 16px;
+    display: flex;
+}
+
+nav ul a {
+    color: #FFBF5D;
+}
+
+nav ul a:hover {
+    color: #009B7D;
+}
+
+#menu-btn {
+    display: none;
+}
+
+.menu-btn {
+    padding: 23px 23px;
+    display: none;
+}
+
+/*
+* main
+*/
+
+main .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    background-size: auto;
+    height: calc(100vh - 100px);
+    width: 100%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+main h1 {
+    color: #009B7D;
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+}
+
+main h3 {
+    color: #FFBF5D;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+main .container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+main a {
+    background-color: #212121;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 42px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 24px;
+}
+
+main a:hover {
+    color: #212121;
+    background-color: white;
+}
+
+/*
+* section
+*/
+
+/*
+* media
+*/
+
+@media screen and (max-width: 640px) {
+
+    /* nav */
+    nav ul {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    /* main */
+    main .container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+}

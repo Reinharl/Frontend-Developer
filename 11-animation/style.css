@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 100%;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    animation: my-animation 3s infinite;
+}
+
+@keyframes my-animation {
+    50% {
+        transform: translate(0px, -150px);
+        background-color: transparent;
+    }
+}
